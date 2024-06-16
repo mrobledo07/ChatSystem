@@ -1,0 +1,16 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+
+package private_chat;
+
+// compile: python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. private_chat.proto
+
+message Message {
+    string sender = 1;
+    string receiver = 2;
+    string message = 3;
+}
+
+service PrivateChatService {
+    rpc AddMessage (Message) returns (google.protobuf.Empty);
+}
