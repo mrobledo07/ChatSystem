@@ -15,5 +15,13 @@ The system is designed to run on Linux. The execution of both the server and the
 Run the server: `bash start_server.sh`.
 Run the client/s: `bash start_client.sh`.
 
+## 👨‍💻 Developers
+
+- Miguel Robledo Kusz  
+- Víctor Fosch Tena
+
+## 📚 Academic Context
+
+This project was developed as part of the *Distributed Systems* course at the **Universitat Rovira i Virgili (URV)** in Tarragona, Spain.
 
 
